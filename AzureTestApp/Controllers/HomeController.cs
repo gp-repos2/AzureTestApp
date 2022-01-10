@@ -25,7 +25,6 @@ namespace AzureTestApp.Controllers
 
         public IActionResult Privacy()
         {
-            throw new Exception("Всё сломалось :(");
             return View();
         }
 
